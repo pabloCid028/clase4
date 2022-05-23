@@ -5,26 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instapet</title>
-</head>
-<body>
     <style>
+        body {
+            background-image: url('http://www.mascotahogar.com/Imagenes/dibujo-de-un-gato-como-wallpaper.jpg'); 
+        }
         h1{
             text-align: center;
             text-decoration: underline;
-            color: darkblue;
+            color: rgb(255, 255, 255);
         }
         .parrafo{
-            color: darkblue;
+            color: rgb(255, 255, 255);
             text-align: center;
         }
-        h3{text-align: center; color: darkblue; }
+        h3{text-align: center; color: rgb(255, 255, 255); }
         .formulario{
-            border: 2px solid; color: darkblue;
+            border: 2px solid; color: rgb(255, 255, 255);
             padding: auto;
             margin: auto;
             width: 200px;
         }
+        .consulta{
+            width: 169px;
+            height: 100px;
+        }
+        .bloque1{
+            display: inline-block;
+            padding: 2rem;
+            vertical-align: top;
+            
+        }
     </style>
+</head>
+<body>
     <h1>Bienvenidos a Instapet</h1>
     <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus eum architecto sint laboriosam voluptatum alias nihil doloribus aliquid aperiam. Perspiciatis error beatae ipsam autem neque natus deserunt voluptas nisi blanditiis?
     </p>
@@ -47,8 +60,21 @@
             <p>
             <label for="password">Contraseña</label><input type="password" required placeholder="12345" > 
             </p>
+            <p>
+            <label for="consulta">consulta</label>
+            <textarea name="consulta" id="consulta" cols="21" rows="10"placeholder="cuantos gatitos puedo adoptar sin que me echen de la casa" ></textarea >
+            </p>
+            <p>
+                <label for="terminos_condicones">Terminos y condiciones</label>
+            <input type="radio" name="terminos y condiciones" id="terminos y condiciones" required>
+            </p>
             <input type="submit">
         </form>
     </div>
+    <div class="bloque1">
+        <iframe class="bloque" width="429" height="315" src="https://www.youtube.com/embed/6CQI7R9SuHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>
+        <iframe class="bloque" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13381.922535007632!2d-71.5642183921875!3d-33.017465699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689ddeaaadcca47%3A0xd14f374f35241a84!2sCl%C3%ADnica%20Artemisa%3A%20Veterinaria%2024%20horas%20y%20Peluqueria%20Canina!5e0!3m2!1ses-419!2scl!4v1653329445674!5m2!1ses-419!2scl" width="429" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </p>
 </body>
 </html>
